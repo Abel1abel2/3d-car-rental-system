@@ -1,5 +1,5 @@
 import '../css/Hero.css'
-import '../css/nav.css'
+
 import HeroCar1 from './HeroCar1'
 import { Link } from 'react-router-dom';
 import { gsap } from 'gsap';
