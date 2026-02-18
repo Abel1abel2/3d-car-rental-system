@@ -125,3 +125,10 @@ align-self:flex-end;
     height:350px;
     overflow-y: auto;
 }
+@media screen and (max-width:500px){
+    .chatbotBtn{
+        top:550px;
+        right:10px;
+    }
+    
+}

@@ -1,7 +1,7 @@
 .heroDiv{ 
   display:flex;
     position:absolute;
-    background-color: rgba(252, 155, 125, 0.942);
+    background-color:#03101f;
     width:100%;
     height:600px;
   
@@ -33,21 +33,24 @@
    
   }
   .heroHeading{
-
-font-size:50px;
-
+margin-top:-10px;
 margin-left:60px;
+
   }
   .firstHead{
   color:white;
+  font-size:52px;
+  width:700px;
   }
   .secondHead{
     color:rgb(244, 53, 53);
-    margin-top:-20px;
+    font-size:52px;
+    margin-top:-40px;
   }
   .heroTxt{
 color:white;
 font-Size:20px;
+font-weight:regular;
 margin-left:70px;
   }
   .headerSpan{
@@ -63,7 +66,7 @@ margin-left:70px;
     font-size: 18px;
   }
   .start{
-      background-color: black;
+      background-color:#4592AF;
        color:white;
   }
   .explore{
@@ -74,59 +77,19 @@ margin-left:70px;
     cursor: pointer;
   }
   .start:hover{
-    background-color: rgb(203, 201, 201);
- 
-    color:black;
+    background-color: black;
+    color:white;
+    border:2px solid #4592AF;
   }
   .explore:hover{
-    background-color: rgb(28, 27, 27);
-   
+    background-color: black;
     color:white;
+    border:2px solid #4592AF;
   }
  
-  @media screen and (max-width:500px){
-    .heroDiv{
-      display:block;
-    }
-    .content{
-      font-size:15px;
-      margin-left:0px;
-    }
-   
-    .heroHeading{
-    font-size:30px;
-    margin-left:50px;
   
-    }
-    .heroTxt{
-      font-size:18px;
-      width:450px;
-      margin-left:50px;
-      
-  
-    }
-    .heroButton{
-      width:140px;
-      height:40px;
-      font-size:12px;
 
-    }
-    .carView{
-      display:none;
-    }
-
-  }
-
-  @media screen and (max-width:1000px){
-     .carView{
-      display:none;
-    }
-     .content{
-      font-size:26px;
-      margin-left:0px;
-    }
-  }
-
+ 
   @media screen and (max-width:1311px){
      .heroDiv{
       display:flex;
@@ -136,6 +99,7 @@ margin-left:70px;
     .content{
       font-size:18px;
       margin-left:10px;
+ 
     }
     .carView{
       margin-top:100px;
@@ -162,4 +126,62 @@ margin-left:70px;
 
     }
   }
+   @media screen and (max-width:1000px){
+     .carView{
+      display:none;
+    }
+     .content{
+      font-size:26px;
+      margin-left:0px;
+    }
+  }
+@media screen and (max-width:800px){
+    .heroDiv{
+      display:block;
+      width:100%;
+      height:100%;
+      padding:0px;
+      margin:0px;
+    
+    }
+    .content{
+      font-size:15px;
+      margin-top:130px;
+      margin-left:20px;
+      height:220px;
+      width:330px;
+    }
+   
+   
+    .firstHead{
+      margin-left:0px;
+     font-size:28px;
+      width:350px;
+      padding-bottom: 5px;
+      
+    }
+    .secondHead{
+      margin-left:0px;
+    }
+    .heroTxt{
+      font-size:16px;
+      width:350px;
+      margin-left:0px;
+      
   
+    }
+    .heroButton{
+      width:140px;
+      height:40px;
+      font-size:12px;
+      margin-left:0px;
+    }
+    .explore{
+      margin-left:30px;
+    }
+   
+    .carView{
+      display:none;
+    }
+
+  }

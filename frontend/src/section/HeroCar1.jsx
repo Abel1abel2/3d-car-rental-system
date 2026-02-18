@@ -2,6 +2,7 @@ import { Canvas } from '@react-three/fiber'
 import {icon} from '../assets/asset.js'
 import { PerspectiveCamera, useGLTF } from '@react-three/drei'
 import '../css/Hero.css'
+import { Suspense } from 'react'
 
 
 const HeroCar1 = () => {
@@ -15,8 +16,9 @@ const HeroCar1 = () => {
         <PerspectiveCamera makeDefault position={[0,3,6]} />
         <ambientLight intensity={5} />
         <directionalLight intensity={2} />
+        <Suspense>
         <primitive object={load.scene} scale={1} position={[1.5,2.2,-0.5]} rotation={[0.2,3.6,0]} />
-
+        </Suspense>
       </Canvas>
   
   )

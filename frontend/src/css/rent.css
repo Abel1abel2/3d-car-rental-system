@@ -161,25 +161,29 @@ border:none;
     border: #8b84f1 3px solid;
 }
 @media (max-width:700px){
-  .rentDiv{
-          display:block;
+.rentDiv{
+    display:block;
     }
     .paymentDiv{
         width:100%;
     
         padding-left:10px;
-       
-      
-   
     }
     .infoDiv{
         width:100%;
-      
-     
     }
     .rentInfo{
-        margin-left:-10px;
+        margin-left:-20px;
     }
+    .commonDiv p{
+        font-size:18px;
+    }
+    .commonDiv input{
+        width:160px;
+    }
+    .submitBtn{
+        margin-left:100px;    }
+  
     
 
 }

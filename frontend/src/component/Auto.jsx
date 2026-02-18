@@ -41,12 +41,12 @@ const Auto = () => {
   return (
     <>
       <OrbitControls  />
-        <PerspectiveCamera makeDefault position={[0,3,6]}  />
+        <PerspectiveCamera makeDefault position={[0,3,0]}  />
         <ambientLight intensity={intensity} />
         <directionalLight intensity={10}/>
         
 
-          <primitive  object={load.scene} position={[0,-1,0]}  scale={170} rotation={[0,-Math.PI/4,0]} onClick={click}/>
+          <primitive  object={load.scene} position={[0,0,0]}  scale={1.6} rotation={[0,-Math.PI/4,0]} onClick={click}/>
       
     </>
   )

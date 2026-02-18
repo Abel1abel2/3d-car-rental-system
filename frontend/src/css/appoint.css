@@ -92,3 +92,17 @@
         left:55%;
     }
  }
+ @media screen and (max-width:800px){
+    .formDiv{
+   
+        margin-left:-35px;
+        width:360px;
+        height:450px;
+    }
+   .formDiv input{
+    width:160px;
+   }
+   .submitButton{
+    width:360px;
+   }
+ }

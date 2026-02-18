@@ -149,3 +149,6 @@
     cursor: pointer;
     border-radius: 10px;
 }
+.inventoryDiv p{
+    color:white;
+}

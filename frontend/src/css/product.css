@@ -21,15 +21,15 @@
 }
 .viewImg{
 width:50%;
-height:50px;
-padding:10px;
+height:90px;
+padding-top:4px;
 padding-left:50px;
 
 }
 .divImg{
     background-color: #f9f7f7;
     width:73%;
-    height:80px;
+    height:100px;
     border:1px solid white;
     padding-left:80px;
    
@@ -57,10 +57,11 @@ padding-left:50px;
     margin-top:10px;
     margin-left:10px;
     width:83%;
-    height:60%;
-    background-color: rgb(161, 180, 247);
+    min-height:60%;
+    backdrop-filter:blur(8%);
+    background-color:rgb(255,255,255,0.1) ;
     color:white;
-    border: 1px solid rgb(161, 180, 247);;
+    border: 1px solid rgb(161, 180, 247);
     border-radius:20px;
     padding:20px;
   
@@ -71,7 +72,7 @@ padding-left:50px;
 }
 .cartDiv p{
     font-size:18px;
-    color:#444343;
+    color:white;
 }
 .cartBtn{
    background-color: black;

@@ -15,6 +15,9 @@
    padding:20px;
 ;
 }
+.cartTxt1{
+    color:white;
+}
 .cartItem{
     display:grid;
     grid-template-columns: repeat(5,1fr);
@@ -70,8 +73,8 @@ span{
     }
     .divCart{
       
-         max-width:370px;
-        margin-left:-190px;
+         max-width:340px;
+        margin-left:-240px;
     }
       .rentBtn{
         margin-left:0px;
